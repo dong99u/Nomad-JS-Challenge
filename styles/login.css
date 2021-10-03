@@ -1,3 +1,4 @@
-.main-greeting__column--hidden {
+.main-greeting__container--hidden,
+.header-logo--hidden {
     display: none;
 }

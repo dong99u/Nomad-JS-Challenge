@@ -16,33 +16,51 @@
     </header>
 
     <main class="main-greeting">
-        <div class="main-greeting__column">
+        <div class="main-greeting__container">
             <h1>What's your name?</h1>
             <form class="main-greeting__form">
                 <input type="text">
-                <input type="submit" value="Submit">
             </form>
         </div>
 
-        <div class="main-greeting__column main-greeting__column--hidden">
-            <h1></h1>
-            <form class="main-greeting__form">
-                <input type="text">
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+        <div class="main-greeting__container main-greeting__container--hidden">
+            <header class="header">
+                <div class="header__container">
+                    <button>Links</button>
+                    <span><i class="fas fa-search"></i></span>
+                </div>
+                <div class="header__weather"></div>
+            </header>
 
-        <div class="main-greeting__column main-greeting__column--hidden">
-            <h1>What's your password?</h1>
-            <form class="main-greeting__form">
-                <input type="text">
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+            <main class="main">
+                <div class="main__title">
+                    <h1 class="main__clock">00:00</h1>
+                    <h2 class="main__greeting"></h2>
+                </div>
+                <div class="main__todo-list">
+                    <h3>What is your main focus for today?</h3>
+                    <form>
+                        <input type="text">
+                    </form>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    
+                </div>
+                <div class="footer__container">
+                    <span class="footer__quote"></span>
+                    <span class="footer__author"></span>
+                </div>
+                <span></span>
+            </footer>
 
+        </div>
     </main>
 
     <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
     <script src="https://kit.fontawesome.com/c9341f871e.js" crossorigin="anonymous"></script>
 </body>
 
