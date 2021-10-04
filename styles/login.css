@@ -1,4 +1,5 @@
 .main-greeting__container--hidden,
-.header-logo--hidden {
+.header-logo--hidden,
+.hidden {
     display: none;
 }

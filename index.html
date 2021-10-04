@@ -37,11 +37,19 @@
                     <h1 class="main__clock">00:00</h1>
                     <h2 class="main__greeting"></h2>
                 </div>
-                <div class="main__todo-list">
+                <div class="main__input-todo-container">
                     <h3>What is your main focus for today?</h3>
                     <form>
                         <input type="text">
                     </form>
+                </div>
+                <div class="main__todo-container hidden">
+                    <h3>TODAY</h3>
+                    <div class="main__todo">
+                        <span></span>
+                        <span></span>
+                        <button><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
                 </div>
             </main>
             <footer class="footer">
@@ -61,6 +69,8 @@
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
     <script src="https://kit.fontawesome.com/c9341f871e.js" crossorigin="anonymous"></script>
 </body>
 
