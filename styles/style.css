@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 @import "reset.css";
-@import "login.css";
+@import "header.css";
+@import "main.css";
+
+/* It must be the last css file */
+@import "hidden.css";
 
 body {
     font-family: 'Open Sans', sans-serif;

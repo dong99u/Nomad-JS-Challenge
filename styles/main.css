@@ -1,0 +1,27 @@
+.main-greeting__login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    transition: all .3s;
+}
+.main-greeting__login-container h1 {
+    font-size: 54px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main-greeting__login-container form input {
+    text-align: center;
+    border: none;
+    background: none;
+    border-bottom: solid 4px white;
+    font-size: 54px;
+    width: 650px;
+    color: white;
+}
+
+.main-greeting__login-container form input:focus {
+    outline: none;
+}

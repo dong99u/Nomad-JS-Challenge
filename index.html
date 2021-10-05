@@ -12,24 +12,34 @@
 
 <body>
     <header class="header-logo">
-        <i class="fab fa-maxcdn fa-5x"></i>
+        <div class="header-logo__container">
+            <i class="fab fa-maxcdn fa-3x"></i>
+        </div>
     </header>
 
     <main class="main-greeting">
-        <div class="main-greeting__container">
-            <h1>What's your name?</h1>
+        <div class="main-greeting__login-container">
+            <h1>Hello, what's your name?</h1>
             <form class="main-greeting__form">
                 <input type="text">
             </form>
         </div>
 
-        <div class="main-greeting__container main-greeting__container--hidden">
+        <div class="main-greeting__main-container hidden">
             <header class="header">
                 <div class="header__container">
                     <button>Links</button>
                     <span><i class="fas fa-search"></i></span>
                 </div>
-                <div class="header__weather"></div>
+                <div class="header__container">
+                    <div class="header__weather">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__location">
+                        <span></span>
+                    </div>
+                </div>
             </header>
 
             <main class="main">
