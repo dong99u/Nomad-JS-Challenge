@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__weather {
+    margin-bottom: 10px;
+}
+
+.header__weather span {
+    text-align: center;
+}

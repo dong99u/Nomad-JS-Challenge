@@ -1,27 +1,47 @@
-.main-greeting__login-container {
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
     flex-direction: column;
-    transition: all .3s;
-}
-.main-greeting__login-container h1 {
-    font-size: 54px;
-    color: white;
-    margin-bottom: 20px;
+    height: 80vh;
 }
 
-.main-greeting__login-container form input {
-    text-align: center;
-    border: none;
-    background: none;
-    border-bottom: solid 4px white;
-    font-size: 54px;
-    width: 650px;
-    color: white;
+.main__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+    justify-content: space-between;
 }
 
-.main-greeting__login-container form input:focus {
+.main__clock {
+    font-size: 170px;
+}
+
+.main__greeting {
+    font-size: 50px;
+}
+
+.main__input-todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+    justify-content: flex-end;
+}
+
+.main__input-todo-container h3 {
+    font-size: 36px;
+}
+
+.main__input-todo-container form input {
     outline: none;
+    background: none;
+    border: none;
+    border-bottom: solid 3px white;
+    width: 600px;
+    height: 5vh;
+    font-size: 36px;
+    color: white;
+    text-align: center;
 }

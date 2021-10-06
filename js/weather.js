@@ -24,7 +24,7 @@ function showWeatherIcon(weather) {
 }
 
 function showTemperture(temp) {
-    document.querySelector(".header__weather span:last-child").innerText = temp;
+    document.querySelector(".header__weather span:last-child").innerText = `${temp}℃ `;
 }
 
 function showLocation(location) {
