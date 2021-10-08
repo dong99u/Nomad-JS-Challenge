@@ -38,10 +38,12 @@ function todoOpenMenu() {
 function clearToDo() {
     localStorage.removeItem(TODO_KEY)
     todoToggle();
+    todoOpenMenu();
 }
 function editToDo() {
     todoToggle();
     todoInput.value = localStorage.getItem(TODO_KEY);
+    todoOpenMenu();
 }
 
 const savedToDo = localStorage.getItem(TODO_KEY);

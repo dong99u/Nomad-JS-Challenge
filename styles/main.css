@@ -45,3 +45,42 @@
     color: white;
     text-align: center;
 }
+
+.main__todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+    justify-content: center;
+}
+
+.main__todo-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.main__todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+.main__todo span:nth-child(2) {
+    font-size: 36px;
+}
+
+.main__menu {
+    position: absolute;
+    left: 87px;
+    bottom: -73px;
+}
+
+.main__todo {
+    display: flex;
+    justify-self: center;
+}
