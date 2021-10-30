@@ -10,6 +10,10 @@
 /* It must be the last css file */
 @import "hidden.css";
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: white;
